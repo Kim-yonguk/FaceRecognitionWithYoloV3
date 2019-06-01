@@ -6,3 +6,13 @@ And i used Face_recognition to recognition face.
 I used face_recognition from the coordinates of the face obtained through yolo to extract the feature value and compare the stored picture with the feature value.
 Then, if the difference is above a certain standard, it is classified as Unknown. And i blurred them using openCV.
 I used an opencv tracker in case I couldn't recognize a side face in the video.
+
+
+
+## Test result
+
+### Before
+<img src =./pic/before.jpg width="20%" height="20%">
+
+### After
+<img src =./pic/after.jpg width="20%" height="20%">
